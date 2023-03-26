@@ -1,0 +1,218 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.section-label{
+    text-align: center;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 2px;
+    font-size: 40px;
+
+}
+.nav-list-item{
+    padding-left: 20px;
+    padding-right:20px;
+    font-size: 20px;
+    color: black;
+}
+
+.nav-list-item:hover{
+   border-bottom:2px solid black;
+   transition: 1s;
+}
+.first-background{
+    position:relative;
+    width: 100vw;
+    height: 100%;
+    background-blend-mode: darken black;
+   
+}
+.first-background::before{
+    background-image: url("images/firstbackground1.webp");
+    background-size: cover; 
+    content:'';
+    position:absolute;
+    inset:0;
+    opacity:0.7;
+}
+.first-background-heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 70px;
+    color:black;
+    padding: 250px;
+    padding-bottom: 100px;
+    isolation:isolate;
+
+}
+.about-section-img{
+    width: 501px;
+    height: 500px;
+}
+.about-section{
+    display: flex;
+    padding-top:30px;
+    margin: 80px;
+    margin-top: 40px;
+    border-style: solid;
+    border-width: 0px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-color: white;
+    
+}
+.about-section:hover{
+    border-color: black;
+    border-radius: 5px;
+}
+.about-section-content-heading{
+    font-size: 25px;
+    padding: 10px;
+}
+.about-section-para{
+    padding: 10px;
+    font-size:20px;
+}
+.about-section-content{
+    padding: 50px;
+}
+
+button{
+    position:relative;
+    background-color:black;
+    color:white;
+}
+.second-section-label{
+    text-align: center;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 30px;
+    font-size: 70px;
+
+}
+.container{
+    width: 90%;
+    height:100%;
+    padding-top:15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.container .card{
+    width: 270px;
+    height:400px;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 7px rgb(11, 11, 11);
+    text-align: center;
+    padding-top:15px;
+
+
+}
+.container .card .product-image{
+    width: 230px;
+    height:300px;
+    margin:20px auto;    
+}
+.container .card .product-image img{
+    width: 100%; 
+    height:90%;
+    transition:0.4s;
+}
+.container .card .product-image img:hover{
+    transform: scale(1,1);
+
+}
+
+.container .card .product.info h4{
+    font-size: 18px;
+    padding: 10px 25px;
+    margin-bottom: 10px;
+
+}
+.container .card .btn{
+    width: 100%;
+
+
+}
+.container .card .btn .button{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    color:white;
+    font-size: 20px;
+}
+.container .card .btn:hover{
+    border:black;
+}
+.btn1{
+    position:absolute;
+    text-align:center;
+    padding-top:100px;
+    left:25%;
+    right:25%;
+    padding-bottom:60px;
+}
+.second-section-label1{
+    text-align: center;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 200px;
+    font-size: 70px;
+
+}
+.contact-form{
+    padding-top: 30px;
+    position:relative;
+    font-style: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 30%;
+}
+.footer-down{
+    padding: 30px;
+    padding-top: 50px;
+    text-align: center;
+}
+.footer-card{
+    padding: 10px;
+}
+.footer-icons{
+    font-size: 32px;
+    color: rgb(11, 11, 11);
+    padding: 10px;
+}
+.footer-navigation-heading{
+    font-size: 20px;
+    color: rgb(43, 43, 43);
+    padding-top: 20px;
+}
+.footer-navigation{
+    color: #a0a0a0;
+    font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 3px;
+    border-color: white;
+}
+.footer-navigation:hover{
+    color: black;
+    
+    text-decoration: none;
+    transition: .5s;
+    border-color:black;
+}
+.submit:hover{
+    color:black;
+    background-color:white;
+}
